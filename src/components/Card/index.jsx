@@ -67,6 +67,7 @@ export default function Card({ item }) {
           height={1080}
           alt={item.title}
           title={item.title}
+          priority={true}
           ref={imageRef}
         />
       </div>
