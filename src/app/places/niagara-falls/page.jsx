@@ -18,7 +18,7 @@ export default function Page() {
       </div>
       <div className={styles.description}>
         <p>
-          The Niagara Falls, located on the border between the United States and
+          {` The Niagara Falls, located on the border between the United States and
           Canada, are one of the world's most famous natural wonders. Comprising
           three distinct waterfalls—Horseshoe Falls, American Falls, and Bridal
           Veil Falls—this spectacular destination attracts millions of tourists
@@ -27,7 +27,7 @@ export default function Page() {
           waterfall globally. The surrounding areas offer a variety of
           attractions, including boat tours, observation towers, and lush parks.
           Niagara Falls is not only a symbol of natural splendor but also a hub
-          for adventure and exploration.
+          for adventure and exploration.`}
         </p>
       </div>
       <p className={styles.credit}>

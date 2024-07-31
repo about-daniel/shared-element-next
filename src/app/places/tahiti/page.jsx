@@ -18,7 +18,7 @@ export default function Page() {
       </div>
       <div className={styles.description}>
         <p>
-          Tahiti, the largest island in French Polynesia, is a tropical paradise
+          {`Tahiti, the largest island in French Polynesia, is a tropical paradise
           located in the heart of the South Pacific Ocean. Known for its
           stunning black sand beaches, lush rainforests, and vibrant coral
           reefs, Tahiti offers an idyllic escape for travelers seeking natural
@@ -29,7 +29,7 @@ export default function Page() {
           dream destination for those looking to experience the serene beauty
           and hospitality of the South Pacific. Whether exploring its rugged
           landscapes or relaxing in luxury resorts, Tahiti promises an
-          unforgettable adventure.
+          unforgettable adventure.`}
         </p>
       </div>
       <p className={styles.credit}>
