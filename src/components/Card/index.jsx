@@ -9,6 +9,11 @@ export default function Card({ item }) {
   const imageRef = useRef();
   const router = useRouter();
 
+  useEffect(() => {
+    // Prefetch the dashboard page
+    router.prefetch(item.slug);
+  }, [router]);
+
   const handleClick = (e) => {
     const placeHolder = document.querySelector("#placeholder");
     const allCards = document.querySelectorAll("[data-card]");
@@ -40,7 +45,7 @@ export default function Card({ item }) {
         setTimeout(() => {
           placeHolder.innerHTML = "";
           gsap.set(placeHolder, { clearProps: "all" });
-        }, 200);
+        }, 400);
       },
     }); // a minimal delay to be sure of cloning
     tl.to([allCards, title], {
