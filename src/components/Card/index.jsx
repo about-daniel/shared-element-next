@@ -45,7 +45,7 @@ export default function Card({ item }) {
         setTimeout(() => {
           placeHolder.innerHTML = "";
           gsap.set(placeHolder, { clearProps: "all" });
-        }, 400);
+        }, 500);
       },
     }); // a minimal delay to be sure of cloning
     tl.to([allCards, title], {
