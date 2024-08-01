@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <main className={styles.main}>
       <div className={styles.header}>
-        <h1>Niagara Falls</h1>
+        <h1>Tahiti</h1>
       </div>
       <div className={styles.cover}>
         <Image
